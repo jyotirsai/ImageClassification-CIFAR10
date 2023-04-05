@@ -1,14 +1,12 @@
-## Description
+# Description
 
 A study of common image classification algorithms on the CIFAR-10 dataset from the University of Toronto.
 
 The following machine learning models were used:
 
-<li>
-    <ol>Softmax (Multi-class Logistic Regression)</ol>
-    <ol>Deep Neural Network (DNN)</ol>
-    <ol>Convolutional Neural Network (CNN)</ol>
-</li>
+1. Softmax (Multi-class Logistic Regression)
+2. Deep Neural Network (DNN)
+3. Convolutional Neural Network (CNN)
 
 A train-validation-test framework was implemented along with systematic hyperparamater tuning using the Keras-Tuner library. The following results were
 achieved:
@@ -23,6 +21,6 @@ Due to a lack of computational resources, more complex CNNs were not explored.
 
 ## Requirements
 
-keras_tuner==1.3.4
-scikit_learn==1.2.2
-tensorflow==2.10.0
+- keras_tuner==1.3.4
+- scikit_learn==1.2.2
+- tensorflow==2.10.0
